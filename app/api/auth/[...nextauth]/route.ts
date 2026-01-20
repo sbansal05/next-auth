@@ -10,7 +10,7 @@ const handler = NextAuth({
             },
             async authorize(credentials, req) {
                 return {
-                    username: "nextauth",
+                    name: "nextauth",
                     id: "1",
                     email: "nextauth@gmail.com"
                 }
